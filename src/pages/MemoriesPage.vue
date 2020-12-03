@@ -7,7 +7,11 @@
     </ion-header>
 
     <ion-content>
-      <h2>These are my memories - list to be added</h2>
+      <ion-list>
+        <ion-item>Jay</ion-item>
+        <ion-item>Abhi</ion-item>
+        <ion-item>Dizy</ion-item>
+      </ion-list>
     </ion-content>
   </ion-page>
 </template>
@@ -19,6 +23,8 @@ import {
   IonHeader,
   IonTitle,
   IonContent,
+  IonList,
+  IonItem,
 } from '@ionic/vue';
 
 export default {
@@ -28,6 +34,9 @@ export default {
     IonHeader,
     IonTitle,
     IonContent,
+    IonList,
+    IonItem,
   },
 };
 </script>
+
